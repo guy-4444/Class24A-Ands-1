@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Activity_SMS">
 
     <androidx.appcompat.widget.LinearLayoutCompat
         android:layout_width="match_parent"
@@ -17,13 +17,13 @@
             android:id="@+id/main_BTN_permission"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Permission"/>
+            android:text="Permission Status"/>
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/main_BTN_read"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Read Contacts"/>
+            android:text="Read Sms"/>
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/main_LBL_info"
