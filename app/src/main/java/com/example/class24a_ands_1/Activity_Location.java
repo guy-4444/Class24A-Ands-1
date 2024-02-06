@@ -42,6 +42,7 @@ public class Activity_Location extends AppCompatActivity {
     2. Location Permissions (s!)
     3. Background Location
     4. location Settings
+
      */
 
     private enum STATE {
